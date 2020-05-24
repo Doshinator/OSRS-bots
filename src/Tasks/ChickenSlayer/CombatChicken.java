@@ -10,7 +10,7 @@ public class CombatChicken extends Task<ClientContext> {
 
     @Override
     public boolean activate() {
-
+        // if in the correct area &  not interacting w/ an npc  & player's health is > 30%
         return false;
     }
 
